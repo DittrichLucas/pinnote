@@ -1,0 +1,73 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "jsx": true,
+        "useJSXTextNode": true
+    },
+    "extends": [
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "comments": 80,
+                "ignoreTrailingComments": true
+            }
+        ],
+        "no-console": "warn",
+        "semi": [
+            "error",
+            "never"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "arrow-parens": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "indent": "error",
+        "linebreak-style": "error",
+        "complexity": [
+            "error",
+            5
+        ],
+        "arrow-body-style": "error",
+        "spaced-comment": [
+            "error",
+            "always",
+            {
+                "exceptions": [
+                    "-"
+                ]
+            }
+        ],
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignore": [
+                    0
+                ]
+            }
+        ],
+        "@typescript-eslint/no-explicit-any": "error",
+        "unused-imports/no-unused-imports-ts": "error"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "unused-imports"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
