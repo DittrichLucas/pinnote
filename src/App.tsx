@@ -1,6 +1,4 @@
 import React from 'react'
-import { Title } from './style'
+import { SideBar } from './components/SideBar'
 
-export const App = () => (
-    <Title>Hello World!</Title>
-)
+export const App = () => <SideBar title="Pinnote!" />
