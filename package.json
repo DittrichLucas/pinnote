@@ -1,11 +1,11 @@
 {
     "name": "pinnnote",
     "version": "0.1.0",
-    "description": "pin what is important",
+    "description": "Pin what is important",
     "main": "./dist/index.html",
-    "author": "DittrichLucas",
+    "author": "Lucas Dittrich <ld.dittrich@gmail.com>",
     "license": "MIT",
-    "private": false,
+    "private": true,
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "build:run": "yarn build && yarn start:dev",
